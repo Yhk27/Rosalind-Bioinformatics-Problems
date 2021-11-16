@@ -1,0 +1,16 @@
+# Problem
+# Given: A string s of length at most 200 letters and four integers a, b, c and d.
+#
+# Return: The slice of this string from indices a through b and c through d (with space in between), inclusively. In other words, we should include elements s[b] and s[d] in our slice.
+# 
+# Sample Dataset
+# HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain.
+# 22 27 97 102
+
+given_str = ("L3rv3Rdt63JYt4mGonyosomaCDgarullapEB2cW7GPvytrH6sJeI3XMFL7xSp2xL5n5NEOxGKrss1DWbAE7ChOqcNcgGgFRXOpXo9K7Ev9ThRr1GOrARxDGV7koP7GLVLUI6M5yBhWs7XUiXyM3HqYMnOkFfEw7k7FzA7xtG5zkQoZwjCEHR.")
+num_a = 15
+num_b = 23
+num_c = 26
+num_d = 32
+
+print(given_str[num_a:num_b+1] + " " + given_str[num_c:num_d+1])
